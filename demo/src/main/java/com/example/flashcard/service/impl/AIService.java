@@ -15,7 +15,7 @@ import java.util.Map;
 public class AIService {
 
     // Key của bạn (Mình đã xóa bớt để bảo mật, bạn nhớ dán lại key gốc vào đây)
-    private static final String GEMINI_API_KEY = "AIzaSyCuMGeIu_EQ89gOX-qbTO28lTUtH0H1XrQ";
+    private static final String GEMINI_API_KEY = "";
 
     // 👇 ĐÃ SỬA: Đổi "v1" thành "v1beta" để chạy được gemini-1.5-flash
     private static final String API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=" + GEMINI_API_KEY;
